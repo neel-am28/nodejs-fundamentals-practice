@@ -3,7 +3,7 @@ const Schema = mongoose.Schema; // access Schema property, which is a function, 
 const blogSchema = new Schema({
     title : {
         type: String,
-        requires: true
+        required: true
     },
     snippet:{
         type: String,
